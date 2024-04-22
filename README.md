@@ -10,9 +10,17 @@ Appends content to the powershell current user's profile (generally `~\Documents
 
 # Preparation before usage
 
-Clone the repository with: `git clone https://github.com/Muskra/pwshenv.git`
-Then, move to the directory created: `cd pwshenv/`
-Afterwards, create two directories: `mkdir bin ; mkdir src`
+Clone the repository with:
+
+> `git clone https://github.com/Muskra/pwshenv.git`
+
+Then, move to the directory created:
+
+> `cd pwshenv/`
+
+Afterwards, create two directories:
+
+`mkdir bin ; mkdir src`
 
 You can now place your binaries into the `bin/` directory, and use the `src/` directory to place your sources if needed.
 Those will be moved to the new environment at installation. 
